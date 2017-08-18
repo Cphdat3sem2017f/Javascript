@@ -1,3 +1,7 @@
+```diff
+- Please observe: This repository is is not yet complete
+```
+
 # ORM (Object Relational Mapping) with JPA (Java Persistence API)
 
 ## Plan
