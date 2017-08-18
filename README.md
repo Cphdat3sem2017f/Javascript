@@ -1,3 +1,6 @@
+```html
+<div style="color=darkred; font-size=larger">This repository is not yet complete</div>
+```
 # ORM (Object Relational Mapping) with JPA (Java Persistence API)
 
 ## Plan
