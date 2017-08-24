@@ -17,9 +17,10 @@
 ### Day 5 - Study point exercises
 
 ## Learning objectives
-
 TBD
 
+## Business competences
+- TBD
 
 ## Exercises 
 TBD
