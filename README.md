@@ -36,7 +36,7 @@ Day 5 [StudyPoint Exercise 2](https://docs.google.com/document/d/1srOGFqoAouN65f
 ## Resources: 
 
 *There are tons of JavaScript articles on the Web. The two major resources are https://www.w3schools.com/ and MDN (Mozilla). Usually, articles from the first, are easier to read, more light weight, and often not quite as up to date as MDN. MDN should be considered like reference documentation.
-Often when you google, articles from w3schools will pop up first. If you prefer MDN add this to you search term, for example "javascript array MDN". If you prefer w3, where you often can try things out, do "javascript array w3".
+Often when you google; articles from w3schools will pop up first. If you prefer MDN, add this to you search term, for example "javascript array MDN". If you prefer w3, where you often can try things out, do "javascript array w3".
 **Important:** Don't always add W3 or MDN to your search queries, there are lots of other great sources out there.*
 
 #### Our recommended resources for this week:
