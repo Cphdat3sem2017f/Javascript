@@ -8,7 +8,7 @@
 
 ### Day 3 - JavaScript and DOM continued
 
-### Day 4 - AJAX
+### Day 4 - AJAX, with fetch() and JSON
 
 ### Day 5 - Study point exercises
 
@@ -44,7 +44,7 @@ Often when you google, articles from w3schools will pop up first. If you prefer 
 - [Document Object Model (W3)]( https://www.w3schools.com/js/js_htmldom.asp) , [Document Object Model (MDN)]( https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
 *AJAX, and JSON: Both W3, and MDN uses the XMLHttpRequest() for server requests, a function that ships with "all" browsers today. Newer browsers however, provide a function fech(..) which is the one we will use. So the AJAX link below is for the Wikepedia article (which are very general) and to info about fetch:*
-- [Ajax]( https://en.wikipedia.org/wiki/Ajax_(programming)
-- [JSON]( https://www.w3schools.com/js/js_json_intro.asp)
+- [Ajax] https://en.wikipedia.org/wiki/Ajax_(programming)
+- [JSON](https://www.w3schools.com/js/js_json_intro.asp)
 - [fetch(..)](https://davidwalsh.name/fetch)
 
