@@ -17,7 +17,7 @@
 ### Day 5 - Study point exercises
 
 ## Learning objectives
-- Learn the fundamentals of modern JavaScript, including features from ES5.
+- Learn the fundamentals of modern JavaScript, including features from ES6.
 - Learn how to create modern pages than can update the DOM, with no need to refresh the whole page, using plain JavaScript Dom, and AJAX.
 - Get a basic understanding of the term Single Page Application, and how it differs from server-side rendered app's as introduced on 2. Semester.
 - Get the necessary skills to, later use a modern JavaScript SPA-library like REACT.
