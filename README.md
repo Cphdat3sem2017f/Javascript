@@ -1,39 +1,50 @@
-# ORM (Object Relational Mapping) with JPA (Java Persistence API)
+# JavaScript, the Document Object Model (DOM) and  AJAX
 
 ## Plan
 
-### Day 1 - Introduction to ORM
+### Day 1 - An introduction to JavaScript
 
-### Day 2 - More JPA
+### Day 2 - Document Object Model (DOM)
 
-### Day 3 - JPA & Inheritance
+### Day 3 - JavaScript and DOM continued
 
-### Day 4 - JPQL
+### Day 4 - AJAX, with fetch() and JSON
 
 ### Day 5 - Study point exercises
 
 ## Learning objectives
+- Learn the fundamentals of modern JavaScript, including features from ES6.
+- Learn how to create modern pages than can update the DOM, with no need to refresh the whole page, using plain JavaScript Dom, and AJAX.
+- Get a basic understanding of the term Single Page Application, and how it differs from server-side rendered app's as introduced on 2. Semester.
+- Get the necessary skills to, later use a modern JavaScript SPA-library like REACT.
 
-ORM / JPA / JPQL
-- Create database connection
-- Create persistence unit
-- Use annotations
-- Create entities
-- Handle relations
-- Handle inheritance
-- Handle entities ( Persist / Merge / Remove / Find )
-- Use entity managers
-- Create named / dynamic queries
-- Create facade to handle entities
 
+## Business competences
+
+JavaScript is one of the most demanded programming skills [ref. it.jobindex.dk](https://it.jobindex.dk/jobsoegning?q=javascript&supid=1).
+
+JavaScript this semester will provide students with the background to join modern front-end teams, using JS and supplementing JS frameworks/libraries.
 
 ## Exercises 
-[Exercise 1 - Basic JPA](https://drive.google.com/open?id=1CB9LYW6uzFy6ibe7fLSHGI_5Ymx6kzdSdARNtsNO0ME)<br>
-[Exercise 2 - Relationships](https://drive.google.com/open?id=1Juic12T0bjb2sf-9dTuxrKXa1l5QA6ak-wTTINlK4dY)<br>
-[Exercise 3 - Inheritance](https://drive.google.com/open?id=1IiTDPL4wDW_0S8sWAHxH_ijYu9SyB6xzyql7aRnTomI)<br>
-[Exercise 4 - JPQL](https://drive.google.com/open?id=18QeY8y6yz0JVo39gQfQ22InDUHtBN29ViFao5s4tQPc)
+Day 1-2: [The JavaScript Array](https://docs.google.com/document/d/1Yen8XRTEXOFuHwglEF5IyhTZXJIPnkPt2kVsATwvdsM/edit) , [JavaScript Ex-1](https://docs.google.com/document/d/1OQM3BDIpTkzgXPKBjXyVYrFvLLLU28eGJIIAxG1U4dc/edit)
 
+Day 2-3 [Dom Manipulation and Events](https://docs.google.com/document/d/1bF7L1TRPlBX2liOoTO9_O0mUE7YROr0dYyQifKYg0TA/edit)
+
+Day 4  [Ajax and Dom Manipulation](https://docs.google.com/document/d/1oEKXGDT8c-Fv2sOplJg7uuQix9Z5l25S8SYre2l5ct4/edit)
+
+Day 5 [StudyPoint Exercise 2](https://docs.google.com/document/d/1srOGFqoAouN65f6qNAp3dTKoJNf9gOyaToFCxEsDCAY/edit#heading=h.gjdgxs)
 ## Resources: 
-<a href="http://tutorialspoint.com/jpa/" target="_blank">Tutorialspoint - JPA</a><br>
-<a href="https://hendrosteven.wordpress.com/2008/03/06/simple-jpa-application-with-netbeans" target="_blank">Simple JPA Application</a><br>
-<a href="http://www.javacodegeeks.com/2015/02/jpa-tutorial.html" target="_blank">The ULTIMATE Guide</a>
+
+*There are tons of JavaScript articles on the Web. The two major resources are https://www.w3schools.com/ and MDN (Mozilla). Usually, articles from the first, are easier to read, more light weight, and often not quite as up to date as MDN. MDN should be considered like reference documentation.
+Often when you google; articles from w3schools will pop up first. If you prefer MDN, add this to you search term, for example "javascript array MDN". If you prefer w3, where you often can try things out, do "javascript array w3".
+**Important:** Don't always add W3 or MDN to your search queries, there are lots of other great sources out there.*
+
+#### Our recommended resources for this week:
+- [JavaScript (W3)](https://www.w3schools.com/js/) ,  [JavaScript (MDN)]( https://developer.mozilla.org/bm/docs/Web/JavaScript)
+- [Document Object Model (W3)]( https://www.w3schools.com/js/js_htmldom.asp) , [Document Object Model (MDN)]( https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+
+*AJAX, and JSON: Both W3, and MDN uses the XMLHttpRequest() for server requests, a function that ships with "all" browsers today. Newer browsers however, provide a function fech(..) which is the one we will use. So the AJAX link below is for the Wikepedia article (which are very general) and to info about fetch:*
+- [Ajax] https://en.wikipedia.org/wiki/Ajax_(programming)
+- [JSON](https://www.w3schools.com/js/js_json_intro.asp)
+- [fetch(..)](https://davidwalsh.name/fetch)
+
