@@ -1,29 +1,14 @@
 <img align="right" src="img/cphbusinessWhite.png" />  
-#Headline 1
-##Subheadline 2
-### sub sub for individual slides ()
-#### sub sub sub goes all the way to 6 hashes
+#Javascript day 1
+##Topics: 
 
-![alt text](img/domtree.png) 
+### Client vs Server what work is done by whom
 
-![alt text](img/element.png)
+### Javascript is run in the browser
 
-###Lets demo
-<img align="right" src="img/demoman.png" />  
-Some description of what to demo here
-<br><br><br><br><br><br><br><br><br><br>
-
-
-- bullet point
-  - to spaces before makes it a sub bullet point (indent by 2 spaces for each sub level)
-
-1. ordered list
-  1. ordered sublist indent by 2 spaces
-  
-[This is a link](http://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild_more3)
-
-javascript```
-This in here will be interpreted as a code snippet. write javascript, css and others
-```  
-
-REMEMBER to add two spaces after a paragraph to ensure newlines
+### Demo: simple browser example setup with js file
+### Different versions of javascript: (ES5 and ES6/ES2015)
+### variables (no datatype, var, let and const, scope)
+### functions (declaration, hoisting)
+### falsy/truthy (false,undefined, null, 0, NaN, "") all others are truthy
+### Callback functions (functions as arguments to functions)
