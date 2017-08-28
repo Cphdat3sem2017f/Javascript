@@ -4,11 +4,12 @@
 
 ### Client vs Server what work is done by whom
 
-### Javascript is run in the browser
+### Javascript is run in the browser (originally)
 
 ### Demo: simple browser example setup with js file
 ### Different versions of javascript: (ES5 and ES6/ES2015)
 ### variables (no datatype, var, let and const, scope)
+### arrays and Object
 ### functions (declaration, hoisting)
 ### falsy/truthy (false,undefined, null, 0, NaN, "") all others are truthy
 ### Callback functions (functions as arguments to functions)
