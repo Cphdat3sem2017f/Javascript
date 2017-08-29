@@ -1,6 +1,7 @@
 <img align="right" src="img/cphbusinessWhite.png" />  
-# Javascript day 1
-## Topics: 
+
+# Javascript day 1  
+## Topics:  
 
 ### Client vs Server what work is done by whom
 
