@@ -6,7 +6,7 @@
 ### Client vs Server what work is done by whom  
 ### Javascript is run in the browser (originally)  
 ### Demo: simple browser example setup with js file 
- 
+
 ### Different versions of javascript: (ES5 and ES6/ES2015)  
 ### variables (no datatype, var, let and const, scope, global scope (beware!!))  
 ### arrays and Object  
@@ -17,6 +17,33 @@
 # Javascript day 2  
 ## Topics:  
 ### array methods: filter and map
+
+```javascript
+var persons = ["Henrik", "Hanne", "Jens", "Josephine", "Victor"];
+
+
+var shortlist = persons.filter(function(element, idx){ return element.length === 6});
+
+
+
+shortlist.forEach(function(el){console.log(el)});
+
+
+function myFilter(arr, callback){
+    var resultArray = [];
+    for(var i = 0; i < arr.length; i++){
+        var element = arr[i];
+        if(callback(element)){
+            resultArray.push(element);
+        }
+    }
+    return resultArray;
+}
+
+var result = myFilter(persons, function(element){ return element.length > 4});
+console.log(result);
+```
+
 ### prototype (extend behaviour of array)
 ### 'this' keyword in js
 ### constructors
@@ -38,6 +65,10 @@
 ### synchronous / asynchronous functions
 ### strict mode
 ### Ressources: 
-[event bubbling](https://javascript.info/bubbling-and-capturing)
-[strict mode](https://www.w3schools.com/js/js_strict.asp)
+[event bubbling](https://javascript.info/bubbling-and-capturing)  
+[strict mode](https://www.w3schools.com/js/js_strict.asp)  
+[Asynchronous code in javascript](https://www.pluralsight.com/guides/front-end-javascript/introduction-to-asynchronous-javascript)  
 
+# Javascript day 4  
+## Topics:  
+###   
