@@ -26,7 +26,7 @@
 [Constructors in js](https://css-tricks.com/understanding-javascript-constructors/)  
 [this keywork](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)  
 [filter() on array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)  
-
+[array.filter(callback) explained how it would have looked in java](demo/CallbackInJava)
 
 
 # Javascript day 3  
@@ -36,7 +36,8 @@
 ### manipulating DOM based on events
 ### Demo: simple browser example setup with js file
 ### synchronous / asynchronous functions
+### strict mode
 ### Ressources: 
 [event bubbling](https://javascript.info/bubbling-and-capturing)
-
+[strict mode](https://www.w3schools.com/js/js_strict.asp)
 
