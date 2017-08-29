@@ -71,4 +71,9 @@ console.log(result);
 
 # Javascript day 4  
 ## Topics:  
+
+### Ressources: 
+[another article about fetching data from a server](https://css-tricks.com/using-fetch/)
+
+
 ###   
