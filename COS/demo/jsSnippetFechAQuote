@@ -1,0 +1,8 @@
+<script>
+     var promise = fetch('https://jokes-plaul.rhcloud.com/api/joke');
+     promise.then(function (response) {
+       return response.json();
+     }).then(function (quote) {
+        alert(quote.joke);
+     })
+</script>
