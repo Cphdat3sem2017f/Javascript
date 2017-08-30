@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="app"></div>
+        <script>
+            var app = document.getElementById("app");
+            app.innerHTML = "blabalblaab";
+            var url = "http://localhost:8084/AjaxDemoSimple/PersonControl";
+            var conf = {method: 'get'};
+            var promise = fetch(url, conf);
+            promise.then(function(response){
+                return response.text();
+            }).then(function(text){
+                console.log(text);
+                app.innerHTML = text;
+            });
+        </script>
+    </body>
+</html>

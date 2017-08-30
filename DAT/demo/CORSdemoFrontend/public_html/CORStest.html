@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="app1">Content to be replaced</div>
+        <div id="app2">Content to be replaced</div>
+        <script>
+            var app1 = document.getElementById("app1");
+            var app2 = document.getElementById("app2");
+            
+            var url = "http://localhost:8084/CORSdemo/api/person";
+            var allowedUrl = "http://localhost:8084/CORSdemo/api/person/allowed";
+            //Futile attempt on not allowed resource
+            var fetchObj = {method: 'get'};
+            var promise = fetch(url, fetchObj);
+            promise.then(function(response){
+                app1.innerHTML = response.text();
+            });
+            //Attempt to access url with Cross Origin Resource Sharing allowed
+            var fetchObj = {method: 'get'};
+            var promise = fetch(allowedUrl, fetchObj);
+            promise.then(function(response){
+                return response.text();
+            }).then(function(text){
+                var person = JSON.parse(text);
+                app2.innerHTML = person.name + " of age: " + person.age;
+            });
+        </script>
+    </body>
+</html>
