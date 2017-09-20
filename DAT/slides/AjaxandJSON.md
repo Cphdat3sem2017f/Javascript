@@ -66,8 +66,7 @@ JavaScript runtimes contain a message queue which stores a list of messages to b
 
 
 
-###Lets Demo
-![](../img/demoman.png)
+
 
 
 ### SVG images

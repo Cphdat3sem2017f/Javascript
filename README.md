@@ -45,7 +45,7 @@ Often when you google; articles from w3schools will pop up first. If you prefer 
 - [Course on Lynda.com](https://www.lynda.com/JavaScript-tutorials/Welcome/574716/612017-4.html?srchtrk=index%3a3%0alinktypeid%3a2%0aq%3ajavascript%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2)
 - [Codecademy course](https://www.codecademy.com/learn/javascript)
 
-*AJAX, and JSON: Both W3, and MDN uses the XMLHttpRequest() for server requests, a function that ships with "all" browsers today. Newer browsers however, provide a function fech(..) which is the one we will use. So the AJAX link below is for the Wikepedia article (which are very general) and to info about fetch:*
+*AJAX, and JSON: Both W3, and MDN uses the XMLHttpRequest() for server requests, a function that ships with "all" browsers today. Newer browsers however, provide a function fech(..) which is the one we will use. So the AJAX link below is for the Wikipedia article (which are very general) and to info about fetch:*
 - [Ajax] https://en.wikipedia.org/wiki/Ajax_(programming)
 - [JSON](https://www.w3schools.com/js/js_json_intro.asp)
 - [fetch(..)](https://davidwalsh.name/fetch)
