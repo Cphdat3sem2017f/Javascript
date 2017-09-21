@@ -12,5 +12,5 @@
 
 ## Exercise
 
-[The daily exercise](Ex1.md)
+[The daily exercise](ex1.md)
 
